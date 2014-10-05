@@ -1,0 +1,5 @@
+.idea/
+mailer.log
+conf/local.ini
+vendor/
+composer.phar

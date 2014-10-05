@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit
+		bootstrap="config.php"
+		backupGlobals="false"
+		backupStaticAttributes="false"
+		colors="true"
+		stopOnFailure="false"
+		processIsolation="false"
+		verbose="true"
+		syntaxCheck="true">
+	<testsuites>
+		<testsuite name="Main">
+			<directory>tests/</directory>
+		</testsuite>
+	</testsuites>
+	<filter>
+		<whitelist>
+			<directory suffix=".php">src/</directory>
+		</whitelist>
+	</filter>
+	<!--<logging>
+		<log type="coverage-text" target="php://stdout" showUncoveredFiles="true"/>
+	</logging>-->
+</phpunit>
