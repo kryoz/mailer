@@ -15,7 +15,12 @@
             "Tests\\" : "tests/"
         }
     },
-
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kryoz/bicycle"
+        }
+    ],
     "require": {
         "monolog/monolog": "@stable",
         "zendframework/zend-config": "2.3.*@stable",
